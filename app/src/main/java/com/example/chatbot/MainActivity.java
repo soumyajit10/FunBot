@@ -120,37 +120,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-        //creating a variable for our request queue.
-      //  RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
-        //on below line we are making a json object request for a get request and passing our url .
-       // JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
-         //   @Override
-           // public void onResponse(JSONObject response) {
-             //   try {
-                    //in on response method we are extracting data from json response and adding this response to our array list.
-               //     String botResponse = response.getString("cnt");
-                 //   messageModalArrayList.add(new MessageModal(botResponse, BOT_KEY));
-                    //notifying our adapter as data changed.
-                   // messageRVAdapter.notifyDataSetChanged();
-               // } catch (JSONException e) {
-                 //   e.printStackTrace();
-                    //handling error response from bot.
-                   // messageModalArrayList.add(new MessageModal("No response", BOT_KEY));
-                   // messageRVAdapter.notifyDataSetChanged();
 
-                //}
-
-            //}
-        //}, new Response.ErrorListener() {
-          //  @Override
-           // public void onErrorResponse(VolleyError error) {
-                //error handling.
-             //   messageModalArrayList.add(new MessageModal("Sorry no response found", BOT_KEY));
-               // Toast.makeText(MainActivity.this, "No response from the bot..", Toast.LENGTH_SHORT).show();
-          //  }
-       // });
-        //at last adding json object request to our queue.
-       // queue.add(jsonObjectRequest);
 
 
 
